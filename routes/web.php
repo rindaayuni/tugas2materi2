@@ -16,3 +16,23 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/beranda', function () {
+    return view('wedding.beranda');
+});
+
+Route::get('/checkout', function () {
+    return view('wedding.checkout');
+});
+
+Route::get('/login', function () {
+    return view('wedding.login');
+});
+
+Route::get('/produk', function () {
+    return view('wedding.produk');
+});
+
+Route::get('/register', function () {
+    return view('wedding.register');
+});
