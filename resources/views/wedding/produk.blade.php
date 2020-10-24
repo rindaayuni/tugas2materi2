@@ -56,12 +56,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="header-bottom">
 		 <div class="container">			
 				<div class="logo">
-					<a href="index.html"><h1>Wedding Store</h1></a>
+					<a href="{{ url ("/beranda") }}"><h1>Wedding Store</h1></a>
 				</div>
 			 <!---->
 		 
 			 <div class="top-nav">
-				<ul class="memenu skyblue"><li><a href="index.html">Home</a></li>
+				<ul class="memenu skyblue"><li><a href="{{ url ("/beranda") }}">Home</a></li>
 					<li class="active"><a href="#">Wedding</a>
 						<div class="mepanel">
 							<div class="row">

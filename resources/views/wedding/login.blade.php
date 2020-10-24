@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="top_left">
 				<ul>
 					<li class="top_link">Email:<a href="mailto:info@example.com">mail@example.com</a></li>|
-					<li class="top_link"><a href="login.html">My Account</a></li>					
+					<li class="top_link"><a href="login.html">My Account</a></li>		
 				</ul>
 			</div>
 				<div class="clearfix"> </div>
@@ -54,12 +54,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="header-bottom">
 		 <div class="container">			
 				<div class="logo">
-					<a href="index.html"><h1>Wedding Store</h1></a>
+					<a href="{{ url ("/beranda") }}"><h1>Wedding Store</h1></a>
 				</div>
 			 <!---->
 		 
 			 <div class="top-nav">
-				<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
+				<ul class="memenu skyblue"><li class="active"><a href="{{ url ("/beranda") }}">Home</a></li>
 					<li class="grid"><a href="#">Wedding</a>
 						<div class="mepanel">
 							<div class="row">
@@ -186,7 +186,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 <h5>Password:</h5>
 					 <input type="password" value="">					
 					 <input type="submit" value="Login">					 
-					  <a class="acount-btn" href="account.html">Create an Account</a>
+					  <a class="acount-btn" href="{{ url ("/register") }}">Create an Account</a>
 				 </form>
 				 <a href="#">Forgot Password ?</a>
 					
