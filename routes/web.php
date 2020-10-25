@@ -36,3 +36,34 @@ Route::get('/produk', function () {
 Route::get('/register', function () {
     return view('wedding.register');
 });
+
+Route::get('/base', function () {
+    return view('templateadmin.base');
+});
+
+Route::get('/berandaadmin', function () {
+    return view('templateadmin.berandaadmin');
+});
+
+Route::get('/loginadmin', function () {
+    return view('templateadmin.loginadmin');
+});
+
+Route::get('/registeradmin', function () {
+    return view('templateadmin.registeradmin');
+});
+
+Route::get('/kategori', function () {
+    return view('templateadmin.kategori');
+});
+
+Route::get('/produk', function () {
+    return view('templateadmin.produk');
+});
+
+
+
+
+
+
+
