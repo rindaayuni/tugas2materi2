@@ -40,7 +40,7 @@
           </li>
 
         <li class="nav-item">
-            <a href="produk" class="nav-link {{checkRouteActive('produk')}}">
+            <a href="produkadmin" class="nav-link {{checkRouteActive('produkadmin')}}">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Produk
@@ -57,11 +57,19 @@
               </p>
             </a>
           </li>
+           <li class="nav-item">
+            <a href="promo" class="nav-link  {{checkRouteActive('promo')}}">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Promo
+              </p>
+            </a>
+          </li>
           <li class="nav-item has-treeview menu-open">
-            <a href="#" class="nav-link active">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Starter Pages
+                Master Data
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -69,23 +77,23 @@
               <li class="nav-item">
                 <a href="#" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Active Page</p>
+                  <p>Pelanggan</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Inactive Page</p>
+                  <p>Supplier</p>
                 </a>
               </li>
             </ul>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="nav-icon fas fa-plus"></i>
               <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
+                Register
+                
               </p>
             </a>
           </li>

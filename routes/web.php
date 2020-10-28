@@ -57,8 +57,12 @@ Route::get('/kategori', function () {
     return view('templateadmin.kategori');
 });
 
-Route::get('/produk', function () {
-    return view('templateadmin.produk');
+Route::get('/produkadmin', function () {
+    return view('templateadmin.produkadmin');
+});
+
+Route::get('/promo', function () {
+    return view('templateadmin.promo');
 });
 
 
